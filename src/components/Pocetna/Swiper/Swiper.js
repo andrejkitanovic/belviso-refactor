@@ -10,6 +10,8 @@ import "swiper/components/navigation/navigation.scss";
 
 import ProizvodImage from "../../../assets/images/Pocetna/Proizvod.png";
 
+import StarFull from '../../../assets/images/Pocetna/StarFull.png'
+
 SwiperCore.use([Navigation, Autoplay]);
 
 const swiper = (props) => {
@@ -34,9 +36,17 @@ const swiper = (props) => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam...
           </p>
+          <button>Procitaj vise</button>
         </div>
         <div className="more">
-          <button>Procitaj vise</button>
+            <div className="rating">
+                <img src={StarFull} alt="Rating" />
+                <img src={StarFull} alt="Rating" />
+                <img src={StarFull} alt="Rating" />
+                <img src={StarFull} alt="Rating" />
+                <img src={StarFull} alt="Rating" />
+            </div>
+  
         </div>
       </div>
     </SwiperSlide>

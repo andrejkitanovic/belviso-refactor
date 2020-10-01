@@ -8,6 +8,7 @@ header {
   min-width: 400px;
   height: 100%;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 100;
 
   .logo {
     display: flex;
@@ -101,4 +102,10 @@ header {
       }
     }
   }
+}
+
+@media (max-width:1200px){
+    header{
+        display:none;
+    }
 }

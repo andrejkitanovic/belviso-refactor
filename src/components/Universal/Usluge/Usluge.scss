@@ -1,0 +1,51 @@
+@import "../../../Colors.scss";
+
+.Usluge {
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top:30px;
+    color:$main;
+}
+
+  .container {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    margin: 80px auto;
+    padding:0 30px;
+
+    .Usluga {
+      height: 220px;
+      border-radius: 20px;
+      box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+      text-align: center;
+      padding: 20px 30px;
+      overflow: hidden;
+      transition: 0.2s;
+      cursor: pointer;
+      border: 3px solid transparent;
+      text-decoration: none;
+
+      h4 {
+        font-size: 22px;
+        color: $main;
+        margin-bottom: 15px;
+      }
+
+      p {
+        font-size: 17px;
+        line-height: 24px;
+        color: #777;
+      }
+
+      &:hover {
+        transform: scale(1.05);
+        border: 3px solid $main;
+      }
+    }
+  }
+}

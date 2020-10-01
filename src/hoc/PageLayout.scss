@@ -9,3 +9,9 @@ main{
         width: calc(100% - 400px);
     }
 }
+
+@media (max-width:1200px){
+    main{
+        width: 100%;
+    }
+}
