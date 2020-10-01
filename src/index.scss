@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Vladimir';
+  font-weight: 400;
+  src: url('./assets/fonts/Vladimir-Regular.TTF');
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

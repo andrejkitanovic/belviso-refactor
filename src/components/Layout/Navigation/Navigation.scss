@@ -1,0 +1,27 @@
+@import '../../../Colors.scss';
+
+.Navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    a{
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 18px;
+        padding:25px 0 25px 20%;
+        background:rgba(0,0,0,0.03);
+        color:$main;
+        font-weight: bold;
+        box-sizing: border-box;
+        border-bottom: 5px solid #fff;
+        transition: .3s;
+
+        &:hover,&.active{
+            background:$main;
+            color:#fff;
+        }
+    }
+}

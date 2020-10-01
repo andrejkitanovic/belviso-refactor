@@ -1,0 +1,62 @@
+@import '../../../Colors.scss';
+
+.Pocetna{
+    .title{
+        height: 50vh;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 60vh;
+        background:url('../../../assets/images/Pocetna/Header.png')no-repeat bottom right;
+        background-size: cover;
+        padding-left: 50px;
+        padding-bottom: 250px;
+
+        h1{
+            font-size: 90px;
+            color:$main;
+            text-transform: capitalize;
+            padding-top: 25px;
+        }
+
+        h2{
+            margin:0;
+            font-size: 33px;
+            padding-right: 50%;
+            line-height: 50px;
+            padding-top: 30px;
+            color:$side;
+            font-style: italic;
+            font-weight: normal;
+         
+        }
+
+        a{
+            display: inline-block;
+            text-decoration: none;
+            line-height: 55px;
+            text-align: center;
+            width: 300px;
+            height: 60px;
+            border:2px solid $main;
+            border-radius: 8px;
+            margin-top:50px;
+            margin-right: 30px;
+            background:$main;
+            color:#fff;
+            font-size:20px;
+            transition: .2s ;
+
+            &:last-of-type{
+                background:#fff;
+                color:$main;
+            }
+
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
