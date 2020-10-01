@@ -3,3 +3,9 @@ main{
     height: 100vh;
     float: right;
 }
+
+@media (max-width:1600px){
+    main{
+        width: calc(100% - 400px);
+    }
+}
