@@ -19,7 +19,6 @@ const akcije = (props) => {
 
   return (
     <div className="Akcije">
-      <h2>Akcije</h2>
       <div className="container">{akcije}</div>
     </div>
   );

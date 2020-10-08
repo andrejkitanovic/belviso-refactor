@@ -12,7 +12,6 @@ const usluge = props => {
     ))
 
     return <div className="Usluge">
-        <h2>Usluge</h2>
         <div className="container">
         {usluge}
         </div>
